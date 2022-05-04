@@ -1,0 +1,27 @@
+@charset "UTF-8";
+html {
+  font-size:62.5%;
+}
+body {
+  font-size:1.4rem;
+}
+*, *::before, *::after {
+  box-sizing:border-box;
+}
+.clearfix::after {
+  content:'';
+  display:block;
+  clear:both;
+}
+
+<style>
+  .p1,.p2 {
+    border: 1px solid #000;
+    width: 150px;
+    height: 50px;
+    background: LightCyan;
+    overflow: visible;
+  }
+</style>
+<p class="p1">hyoujiryouikiwokoerubaai(overflow)</p>
+<p class="p2">表示領域を超える場合の表示方法</p>
